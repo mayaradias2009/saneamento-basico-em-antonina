@@ -1,0 +1,51 @@
+/* style.css */
+
+/* Estilo global para o corpo da página */
+body {
+font-famil: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #floralwhite;
+}
+
+/* Estilo para o cabeçalho */
+header {
+background-color: blueviolet;
+color: white;
+padding: 15px;
+position: relative;
+}
+
+/* Estilo para o menu de navegação */
+nav ul {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Estilo para o conteúdo principal */
+main {
+    padding: 20px;   
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: skyblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width:100%;
+}
